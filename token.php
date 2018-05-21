@@ -17,11 +17,8 @@ class token {
 			if($sessionIdentifier == $sid ){
 				return true;
 			}
-		}
-		
-	}
-	
-	
+		}		
+	}		
 }
 
 ?>

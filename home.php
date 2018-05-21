@@ -15,4 +15,5 @@ if(isset($_POST['updatepost'])){
 		echo "Wrong".$_COOKIE['CSFR1'];
 	}
 }
+
 ?>

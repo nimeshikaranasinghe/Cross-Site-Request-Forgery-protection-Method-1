@@ -1,7 +1,5 @@
 <?php
 
-
-
 session_start();
 $myfile = fopen("CSFR_Tokens.txt", "w") or die("Unable to open file!");
 $_SESSION['token'] = base64_encode(openssl_random_pseudo_bytes(32));
@@ -16,5 +14,4 @@ fclose($myfile);
 
 echo $_SESSION['token'];
 
-
-  ?>
+?>
